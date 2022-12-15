@@ -47,8 +47,10 @@ extension Wallet {
     public static let coinbaseRetail = Wallet(
         name: "Coinbase",
         iconUrl: URL(string: "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/4f/75/a6/4f75a665-0328-7bbc-f7ac-cee4e17c50c6/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg")!,
-        url: URL(string: "https://coinbase.com/wsegue")!,
-        mwpScheme: URL(string: "coinbase+mwp://")!,
+//        url: URL(string: "https://coinbase.com/wsegue")!,
+        url: URL(string: "com.coinbase.consumer://dapps")!,
+//        mwpScheme: URL(string: "coinbase+mwp://")!,
+        mwpScheme: URL(string: "com.coinbase.consumer://")!,
         appStoreUrl: URL(string: "https://apps.apple.com/app/id886427730")!
     )
     

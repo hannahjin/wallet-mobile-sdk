@@ -4,5 +4,9 @@
     <queries>
         <package android:name="org.toshi" />
         <package android:name="org.toshi.alpha" />
+        <package android:name="com.coinbase.android" />
+        <package android:name="com.coinbase.android.alpha" />
+        <package android:name="com.coinbase.android.beta" />
+        <package android:name="com.coinbase.android.development" />
     </queries>
 </manifest>

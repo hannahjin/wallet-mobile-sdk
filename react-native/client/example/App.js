@@ -21,10 +21,15 @@ import {
 import {MMKV} from 'react-native-mmkv';
 
 // Configure Mobile SDK
+// configure({
+//   hostURL: new URL('https://wallet.coinbase.com/wsegue'),
+//   callbackURL: new URL('example.rn.dapp://'), // Your app's Universal Link
+//   hostPackageName: 'org.toshi',
+// });
 configure({
-  hostURL: new URL('https://wallet.coinbase.com/wsegue'),
+  hostURL: new URL('https://coinbase.com/wsegue'),
   callbackURL: new URL('example.rn.dapp://'), // Your app's Universal Link
-  hostPackageName: 'org.toshi',
+  hostPackageName: 'com.coinbase.android.development',
 });
 
 const provider = new WalletMobileSDKEVMProvider();
